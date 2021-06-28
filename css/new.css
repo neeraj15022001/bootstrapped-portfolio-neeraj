@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --themePink: #ea4c88;
+  --themeLightPink: #ea86b6;
+  --themeWhite: #ffffff;
+  --themeBlack: #000000;
+  --themeCard: #0b0b0d;
+}
+.bg-black {
+  background-color: var(--themeBlack) !important;
+}
+.bg-pink {
+    background-color: var(--themePink) !important;
+}
+.bg-white {
+    background-color: var(--themeWhite) !important;
+}
+.text-pink {
+  color: var(--themePink) !important;
+}
+.btn-outline-pink {
+  color: var(--themePink);
+  background-color: transparent;
+  border-color: var(--themePink);
+}
+.btn-outline-pink:hover {
+  color: var(--themeWhite);
+  background-color: var(--themePink);
+}
+.font-pacifico {
+  font-family: "Pacifico", cursive !important;
+}
+.bottom-line {
+  /* padding: 0.2rem 0; */
+  height: 0.4rem !important;
+  border-width: 0;
+  border-radius: 2rem;
+  background-color: var(--themeWhite) !important;
+  color: var(--themeWhite) !important;
+  opacity: 0.9 !important;
+  width: 15% !important;
+}
+.bottom-line::after {
+  content: " ";
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+  background-color: var(--themeWhite) !important;
+  color: var(--themeWhite) !important;
+  position: absolute;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -40%);
+}
+.opacity-full {
+    opacity: 1 !important;
+}
+.bg-card {
+    background-color: var(--themeCard) !important;
+}
+.social-icon {
+    color: var(--themeWhite) !important;
+    height: 4rem !important;
+    width: 4rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-icon {
+    background-color: var(--themeCard) !important;
+    transition: 0.3s ease-in-out;
+}
+.bg-icon:hover {
+    background-color: var(--themeWhite) !important;
+    color: var(--themeBlack) !important;
+}
+.mb-10 {
+  margin-bottom: 10rem !important;
+}
+.mb-6 {
+  margin-bottom: 6rem !important;
+}
+.h-15 {
+  height: 15rem !important;
+}
